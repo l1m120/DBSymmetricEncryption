@@ -38,6 +38,14 @@ This Python script is structured into two main phases:
   | RC4           | 40, 128, 256 bits    |
   | ChaCha20      | 256 bits             |  
 
+-**Plain Text Used**
+
+   |                | **Numeric**                                         | **Alphabetic**                                      | **Alphanumeric**                                                   |
+   |----------------|-----------------------------------------------------|----------------------------------------------------|--------------------------------------------------------------------|
+   | **Short**      | • 1234567890<br>• 9876543210                       | • HelloWorld<br>• Encryption                       | • P@ssw0rd!1<br>• A1B2C3D4E5                                      |
+   | **Medium**     | • 12345678901234567890<br>• 09876543210987654321   | • DataEncryptionTest<br>• SecureDataTesting       | • P@ssw0rd2023!Secure<br>• Test123!Encryption                     |
+   | **Long**       | • 12345678901234567890123456789012345678901234567890<br>• 98765432109876543210987654321098765432109876543210 | • ThisIsALongPlaintextForEncryptionTestingPurposes<br>• SecureYourDatabaseWithProperEncryptionMethods | • LongP@ssw0rd123!SecureDataEncryptionTest2023!#<br>• Encryption$Mix123!DataTestForAnalysis2023!AB |
+
 - **Supported Databases**:  
   - MySQL  
   - SQLite  
