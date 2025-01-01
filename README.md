@@ -11,7 +11,7 @@ This Python script is structured into two main phases:
 
 ---
 
-## Instructions to Run the Script  
+## Script Description
 
 ### Phase 1: Encryption Test Data Generation  
 - **File Name**: Python files labeled starting with `1`.  
