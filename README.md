@@ -67,7 +67,7 @@ This Python script is structured into two main phases:
       | `name`        | User's name            |
       | `email`       | User's email address   |
       | `creditcard`  | User's credit card     |  
-
+  
   - **Files Starting with `3`**:  
     - Inserts user data into the `users` table with **field-level encryption** for `email` and `creditcard` using different databases and algorithms.  
     - Attributes:  
@@ -78,3 +78,12 @@ This Python script is structured into two main phases:
       | `name`        | User's name            |
       | `email`       | Encrypted email        |
       | `creditcard`  | Encrypted credit card  |
+
+    - Key Sizes Used:
+      | **Algorithm** | **Key Sizes**        |
+      |---------------|----------------------|
+      | AES           | 256 bits   |
+      | DES           | 192 bits             |
+      | Blowfish      | 448 bits   |
+      | RC4           | 256 bits    |
+      | ChaCha20      | 256 bits             |  
