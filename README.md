@@ -38,7 +38,7 @@ This Python script is structured into two main phases:
   | RC4           | 40, 128, 256 bits    |
   | ChaCha20      | 256 bits             |  
 
--**Plain Text Used**
+- **Plain Text Used**
 
    |                | **Numeric**                                         | **Alphabetic**                                      | **Alphanumeric**                                                   |
    |----------------|-----------------------------------------------------|----------------------------------------------------|--------------------------------------------------------------------|
