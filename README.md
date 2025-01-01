@@ -1,4 +1,4 @@
-## Database Encryption Evaluation
+# Database Encryption: A Focus on Symmetric Encryption Algorithms
 
 This Python script is structured into two main phases:  
 
