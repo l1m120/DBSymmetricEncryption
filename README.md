@@ -59,7 +59,7 @@ This Python script is structured into two main phases:
   - Files labeled starting with `2` and `3`.  
 - **Details**:  
   - **Files Starting with `2`**:  
-    - Inserts unencrypted user data into the `unencrypted_users` table with the following attributes:  
+    - Inserts 1000 random unencrypted user data into the `unencrypted_users` table with the following attributes:  
 
       | **Attribute** | **Description**        |
       |---------------|------------------------|
@@ -69,7 +69,7 @@ This Python script is structured into two main phases:
       | `creditcard`  | User's credit card     |  
   
   - **Files Starting with `3`**:  
-    - Inserts user data into the `users` table with **field-level encryption** for `email` and `creditcard` using different databases and algorithms.  
+    - Inserts 1000 random user data into the `users` table with **field-level encryption** for attributes `email` and `creditcard` using different databases and algorithms.  
     - Attributes:  
 
       | **Attribute** | **Description**        |
